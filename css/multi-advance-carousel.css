@@ -1,0 +1,63 @@
+.col-md-3 {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.col-md-3 img {
+    width: 100%;
+    height: auto;
+}
+
+body .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Service .carousel-item {
+    height: 100% !important;
+}
+
+.Service .carousel {
+    height: auto !important;
+    margin-top: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+        justify-content: flex-start
+    }
+    .carousel {
+        margin-top: 66px;
+        margin-bottom: 136px;
+        height: 408px;
+    }
+    .Kalender-box-bar {
+        margin-left: -30px;
+    }
+    .Spiele .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+        justify-content: start;
+    }
+    /* Services page css section */
+    .food-content {
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .Services-Gastro .carousel-item {
+        height: auto;
+    }
+    .Services-Gastro .carousel {
+        height: auto;
+    }
+}

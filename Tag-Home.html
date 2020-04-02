@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/multiLanguage.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      MultiLanguage(null)
+    })
+  </script>
+</head>
+
+<body class="main">
+  <div class="content-wrapper">
+    <!-- header section -->
+    <div class="header-tab-wrapper">
+      <div class="header-logo hight-auto">
+        <div class="logo-nav-container">
+          <div class="logo center-item"></div>
+          <div class="nav-open center-item">
+            <img src="assets/img/tab-icons/mobile_top_bar.svg" class="open-nav-btn" />
+            <img src="assets/img/tab-icons/close-mobile_top_bar.png" class="close-nav-btn" />
+          </div>
+        </div>
+      </div>
+      <div class="header-marker">
+        <div class="flex-center position-relative">
+          <div class="time">17:23</div>
+          <div class="marker-label position-absolute">18 Februar 2020</div>
+        </div>
+        <div class="flex-center position-relative ">
+          <div class="could">
+          </div>
+          <div class="marker-label position-absolute mb-0"> 21°C</div>
+        </div>
+      </div>
+    </div>
+    <!-- center section -->
+    <div class="main-content flex-between col-lg-10 col-md-10 col-sm-12 m-b-62">
+      <div class="boxs-container">
+        <div class="big-box flex-center col-lg-3  p-0">
+          <div class="box-label Unterhaltung">Unterhaltung</div>
+          <img src="assets/img/tab-icons/day-version-box-1.svg" class="z-index-100 mb-3 mt-3" width="40%" />
+          <div class="bar"></div>
+        </div>
+        <div class="big-box flex-center col-lg-3  p-0">
+          <div class="box-label Hotellerie">Hotellerie</div>
+          <img src="assets/img/tab-icons/day-version-box-2.svg" class="z-index-100 mb-3 mt-3" width="35%" />
+          <div class="bar"></div>
+        </div>
+        <div class="big-box flex-center col-lg-3  p-0">
+          <div class="box-label Services">Services</div>
+          <img src="assets/img/tab-icons/day-version-box-3.svg" class="z-index-100 mb-3 mt-3" width="40%" />
+          <div class="bar"></div>
+        </div>
+        <div class="big-box flex-center col-lg-3  p-0">
+          <div class="box-label Max-Muster">Max Muster</div>
+          <img src="assets/img/tab-icons/day-version-box-4.svg" class="z-index-100 mb-3 mt-3" width="35%" />
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 overflow-x">
+        <div class="small-box-title pb-2">Favoriten</div>
+        <div class="small-boxs-container">
+          <div class="small-box flex-center">
+            <div class="small-box-label Musik">Musik</div>
+            <img src="assets/img/tab-icons/day-version-s-box-1.svg" class="z-index-100 pt-2" />
+            <div class="small-box-bar "></div>
+          </div>
+          <div class="small-box flex-center">
+            <div class="small-box-label Spielen">Spielen</div>
+            <img src="assets/img/tab-icons/day-version-s-box-2.svg" class="z-index-100 pt-2" />
+            <div class="small-box-bar "></div>
+          </div>
+          <div class="small-box flex-center">
+            <div class="small-box-label Geschenke">Geschenke</div>
+            <img src="assets/img/tab-icons/day-version-s-box-3.svg" class="z-index-100 pt-2" />
+            <div class="small-box-bar "></div>
+          </div>
+        </div>
+      </div>
+      <div class="language-bar">
+        <div> <img src="assets/img/flag-icons/sweden.svg" onclick="MultiLanguage('gr')" />
+          <div>Sweden</div>
+        </div>
+        <div> <img src="assets/img/flag-icons/uk.svg" onclick="MultiLanguage('en')" />
+          <div>English</div>
+        </div>
+        <div><img src="assets/img/flag-icons/spain.svg" onclick="MultiLanguage('es')" />
+          <div>Spain</div>
+        </div>
+      </div>
+
+    </div>
+    <!-- footer section -->
+    <nav class="nav-bar">
+      <ul class="menu">
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Einstellungen.html">
+                <img src="assets/img/tab-icons/setting-normal.svg" />
+                <span class="Einstellungen">Einstellungen</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Lautstärke.html">
+                <img src="assets/img/tab-icons/voice.svg" />
+                <span class="Lautstärke">Lautstärke</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Helligkeit.html">
+                <img src="assets/img/tab-icons/sun.svg" />
+                <span class="Helligkeit">Helligkeit</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item active">
+          <div class="shape">
+            <div class="gradient-shape">
+              <div class="before">
+                <div></div>
+              </div>
+              <a class="link" href="Tag-Home.html">
+                <img src="assets/img/tab-icons/open-home.svg" />
+                <span class="Home">Home</span>
+              </a>
+              <div class="after">
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Bett.html">
+                <img src="assets/img/tab-icons/hospital.svg" />
+                <span class="Bett">Bett</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Storen.html">
+                <img src="assets/img/tab-icons/download.svg" />
+                <span class="Storen">Storen</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Licht-2aktiv.html">
+                <img src="assets/img/tab-icons/lamp.svg" />
+                <span class="Licht">Licht</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <a class="link" href="Tag-Einstellungen.html">
+              <img src="assets/img/tab-icons/ring.svg" />
+              <span class="Rufen">Rufen</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

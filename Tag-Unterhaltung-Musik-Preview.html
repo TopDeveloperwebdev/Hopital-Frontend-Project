@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/multi-slider-14-audio.css">
+
+</head>
+
+<body class="main">
+  <div class="content-wrapper Musik-Preview">
+    <!-- header section -->
+    <div class="header-tab-wrapper pb-3  mb-3">
+      <div class="header-logo header-TV-logo">
+        <div class="logo-nav-container">
+          <div class="logo center-item"></div>
+          <div class="nav-open center-item">
+            <img src="assets/img/tab-icons/mobile_top_bar.svg" class="open-nav-btn" />
+            <img src="assets/img/tab-icons/close-mobile_top_bar.png" class="close-nav-btn" />
+          </div>
+        </div>
+      </div>
+      <div class="header-marker">
+        <div class="flex-center position-relative">
+          <div class="time">17:23</div>
+          <div class="marker-label position-absolute">18 Februar 2020</div>
+        </div>
+        <div class="flex-center position-relative ">
+          <div class="could">
+          </div>
+          <div class="marker-label position-absolute mb-0"> 21°C</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- center section -->
+    <div class="content col-lg-12 col-md-12 col-sm-12 p-0 ">
+      <div class="col-lg-1 col-md-1 col-sm-0"></div>
+      <div class="col-lg-11 col-md-11 col-sm-12 text-center p-0">
+
+        <div class="music-controls-bar">
+          <div class="logo-TV-bottom">
+            <div class="facebook-header-container">
+              <img src="assets/img/tab-icons/pre.svg" width="100%" class="arrow center-item" />
+              <img src="assets/img/tab-icons/music-mark.svg" class="center-item" />
+              <div class="facebook-label center-item">Music<div class="font-size-4">26 Channels</div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-active-music">
+            <figure class="music-img cover">
+              <img class="artist-cover" src="data/singergroup/singer-1.svg" />
+            </figure>
+          </div>
+          <div class="play-controls music-controls p-0">
+            <div class="player-wrap p-0" style="height : 100%">
+              <div class="button info col-lg-3 p-0 music-cover">
+                <img class="cover center-width center-item" src="data/cover1.jpg" />
+              </div>
+              <div class="player col-lg-6 p-0">
+                <audio preload></audio>
+                <div class="control-audio">
+                  <div class="title"></div>
+                  <div class="time-slider">
+                    <div class="current">0:00:00</div>
+                    <div id="seek-bar" class="center-item">
+                      <div id="progress-bar"></div>
+                    </div>
+                    <div class="duration">0:00:00</div>
+                  </div>
+                  <div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 p-0 center-item control-btns-container">
+                <div class="control-btns">
+                  <div class="prev prev-music"></div>
+                  <div class="playpause">
+                    <div class="play play-music"></div>
+                    <div class="pause pause-music"></div>
+                  </div>
+                  <div class="next-audio next-music"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" playlist-wrap">
+          <div class="desktop-active-music">
+            <figure class="music-img cover">
+              <img class="artist-cover" src="data/singergroup/singer-1.svg" />
+            </figure>
+          </div>
+          <div class="play-list play-list-music-2">
+            <ol>
+              <li>
+                <div audiourl="data/01.mp3" cover="data/singergroup/singer-1.svg">
+                  <span>1</span> <a> Please Excuse Me For Being Antisocial </a>
+                  <div>3:40</div>
+                </div>
+              </li>
+              <li>
+                <div audiourl="data/02.mp3" cover="data/singergroup/singer-2.svg">
+                  <span>2</span> <a> Music To Be Murdered By</a>
+                  <div>2:39</div>
+                </div>
+              </li>
+              <li>
+                <div audiourl="data/03.mp3" cover="data/singergroup/singer-3.svg">
+                  <span>3</span> <a> What You See Is What You Get</a>
+                  <div>2:39</div>
+                </div>
+              </li>
+              <li>
+                <div audiourl="data/04.mp3" cover="data/singergroup/singer-4.svg">
+                  <span>4</span> <a> Please Excuse Me For Being Antisocial</a>
+                  <div>2:39</div>
+                </div>
+              </li>
+              <li>
+                <div audiourl="data/01.mp3" cover="data/singergroup/singer-5.svg">
+                  <span>5</span> <a> Music To Be Murdered By</a>
+                  <div>2:39</div>
+                </div>
+              </li>
+              <li>
+                <div audiourl="data/02.mp3" cover="data/singergroup/singer-6.svg">
+                  <span>6</span> <a> What You See Is What You Get</a>
+                  <div>2:39</div>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- footer section -->
+    <nav class="nav-bar">
+      <ul class="menu">
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Einstellungen.html">
+                <img src="assets/img/tab-icons/setting-normal.svg" />
+                <span>Einstellungen</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Lautstärke.html">
+                <img src="assets/img/tab-icons/voice.svg" />
+                <span>Lautstärke</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Helligkeit.html">
+                <img src="assets/img/tab-icons/sun.svg" />
+                <span>Helligkeit</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <div class="before">
+                <div></div>
+              </div>
+              <a class="link" href="Tag-Home.html">
+                <img src="assets/img/tab-icons/home.svg" />
+                <span>Home</span>
+              </a>
+              <div class="after">
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Bett.html">
+                <img src="assets/img/tab-icons/hospital.svg" />
+                <span>Bett</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Storen.html">
+                <img src="assets/img/tab-icons/download.svg" />
+                <span>Storen</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <div class="gradient-shape">
+              <a class="link" href="Tag-Licht-2aktiv.html">
+                <img src="assets/img/tab-icons/lamp.svg" />
+                <span>Licht</span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item">
+          <div class="shape">
+            <a class="link" href="Tag-Einstellungen.html">
+              <img src="assets/img/tab-icons/ring.svg" />
+              <span>Rufen</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+   <script src="js/audio-player.js"></script>
+  <script src="js/main.js"></script>
+  <script> 
+    var au = document.createElement('audio');
+    var nth =0;
+    var audioList = document.querySelectorAll('ol li > div');
+    selectAudio(0);
+    function selectAudio (nth) {    
+       var audioUrl = audioList[nth].getAttribute('audiourl');
+         au.src = audioUrl;         
+    }
+    au.addEventListener('loadedmetadata', function() {     
+      var duration = au.duration;
+      var hh =Math.round(duration / 60 ) ;
+      var mm =Math.round (duration % 60);
+      audioList[nth].querySelector('div').innerHTML =hh + " : " + mm;  
+      if(nth+1 < audioList.length) {
+        nth +=1;
+        selectAudio(nth);       
+      }
+    })
+  </script>
+</body>
+
+</html>
